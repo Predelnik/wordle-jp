@@ -1,0 +1,18 @@
+{
+  "files": [
+      "src/"
+  ],
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url .",
+    "deploy": "gh-pages -d dist"
+  },
+  "name": "wordle-jp",
+  "version": "1.0.0",
+  "description": "wordle for jp lang",
+  "main": "index.ts",
+  "repository": "https://predelnik.github.io/wordle-jp",
+  "author": "sergey-semushin",
+  "license": "MIT",
+  "private": false
+}
