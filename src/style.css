@@ -1,0 +1,31 @@
+.kana-cell {
+    font-size: xx-large;
+}
+.cell-unknown {
+    background-color: lightgrey;
+}
+.cell-missing {
+    background-color: grey;
+}
+.cell-present {
+    background-color: yellow;
+}
+.cell-placed {
+    background-color: lightgreen;
+}
+#text-input {
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+#status-div {
+    margin-bottom: 2em;
+}
+#guesses-table {
+    margin-left: 2em;
+}
+table {
+    float: left
+}
+* {
+    font-size: large;
+}

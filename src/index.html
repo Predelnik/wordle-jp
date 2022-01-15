@@ -3,9 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <title>wordle jp</title>
-        <link id="dynamic-favicon" rel="shortcut icon" />
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div id="guessed-word-div"></div>
+        <div>Guess:<input id="text-input"><button id="check-button">Check</button></div>
+        <div id="status-div"></div>
+        <div><table id='letter-table' /><table id='guesses-table' /></div>
+        <script src="./index.ts" type="module"></script>
     </body>
 </html>

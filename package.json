@@ -1,6 +1,6 @@
 {
   "files": [
-      "src/"
+    "src/"
   ],
   "scripts": {
     "start": "parcel serve src/index.html",
@@ -10,9 +10,12 @@
   "name": "wordle-jp",
   "version": "1.0.0",
   "description": "wordle for jp lang",
-  "main": "index.ts",
   "repository": "https://predelnik.github.io/wordle-jp",
   "author": "sergey-semushin",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "wanakana": "^4.0.2"
+  },
+  "devDependencies": {}
 }
