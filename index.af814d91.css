@@ -1,0 +1,44 @@
+
+.cell-unknown {
+    background-color: lightgrey;
+}
+.cell-missing {
+    background-color: grey;
+}
+.cell-present {
+    background-color: #e9df86;
+}
+.cell-placed {
+    background-color: lightgreen;
+}
+.cell-highlight {
+    font-weight: bold;
+}
+#text-input {
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+#status-div {
+    margin-bottom: 2em;
+}
+#guesses-table {
+    margin-left: 2em;
+}
+#status-div {
+    height: 1.1em;
+}
+td {
+    width: 1.25em;
+    font-size: xx-large;
+    background-color: lightgrey;
+    border-radius:6px;
+    user-select:none;
+    text-align: center;
+}
+table {
+    float: left;
+}
+* {
+    font-size: large;
+}
+/*# sourceMappingURL=index.af814d91.css.map */
