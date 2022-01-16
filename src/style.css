@@ -1,6 +1,4 @@
-.kana-cell {
-    font-size: xx-large;
-}
+
 .cell-unknown {
     background-color: lightgrey;
 }
@@ -8,10 +6,13 @@
     background-color: grey;
 }
 .cell-present {
-    background-color: yellow;
+    background-color: #e9df86;
 }
 .cell-placed {
     background-color: lightgreen;
+}
+.cell-highlight {
+    font-weight: bold;
 }
 #text-input {
     margin-left: 0.5em;
@@ -23,8 +24,19 @@
 #guesses-table {
     margin-left: 2em;
 }
+#status-div {
+    height: 1.1em;
+}
+td {
+    width: 1.25em;
+    font-size: xx-large;
+    background-color: lightgrey;
+    border-radius:6px;
+    user-select:none;
+    text-align: center;
+}
 table {
-    float: left
+    float: left;
 }
 * {
     font-size: large;
